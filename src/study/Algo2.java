@@ -15,7 +15,7 @@ public class Algo2 {
         for (int i = 0; i < N; i++) {
             int x = sc.nextInt();
             int y = sc.nextInt();
-            if (((x - a) * (x - a)) + ((y - b) * (y - b)) > R * R) {
+            if (((x - a) * (x - a)) + ((y - b) * (y - b)) >= R * R) {
                 list.add("silent");
             } else {
                 list.add("noisy");
